@@ -11,7 +11,7 @@ function get_products_of_all_ints_except_at_index(ints){
   var product = ints.slice();
   var len = ints.length;
   var productSoFar = 1;
-  for (var i= -; i < len; i++){
+  for (var i= 0; i < len; i++){
     product[i] = productSoFar;
     productSoFar *= int[i];
   }
